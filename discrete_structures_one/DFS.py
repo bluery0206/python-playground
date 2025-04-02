@@ -47,7 +47,7 @@ class Node:
         return self.name > node.name
     
 
-class BFS:
+class DFS:
     def __init__(self, nodes: list[Node]) -> None:
         self.nodes: list[Node] = nodes
 
