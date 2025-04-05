@@ -137,6 +137,6 @@ g.add_neighbor(e)
 
 h.add_neighbor(c)
 
-bfs = BFS([a, b, c, d, e, f, g, h])
-bfs.traverse(starting_node_idx=0)
-print(bfs.nodes)
+dfs = DFS([a, b, c, d, e, f, g, h])
+dfs.traverse(starting_node_idx=0)
+print(dfs.nodes)
