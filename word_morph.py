@@ -31,10 +31,10 @@ def word_morph(word: str, from_last: bool = False, ltr: bool = False, centered: 
 
             print(new_word)
 
-
-word_morph(
-    word = "hilario",
-    from_last = True, # Whether to remove letters from last to beginning or vice versa
-    ltr = True, # Whether to show the letters in left or right
-    centered = False # A bool to make the output look centered from the root word however
-)
+if __name__ == "__main__":
+    word_morph(
+        word = "hilario",
+        from_last = True, # Whether to remove letters from last to beginning or vice versa
+        ltr = True, # Whether to show the letters in left or right
+        centered = False # A bool to make the output look centered from the root word however
+    )
